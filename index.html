@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Andy's Music Stash - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Andy's Music Stash</h1>
+    <br>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="albums.html">Albums</a>
+      <a href="artists.html">Artists</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>🎵 Your Random Song:</h2>
+    <p id="random-song">Loading...</p>
+    <button id="randomize-btn">🔁 Randomize Song</button>
+    <hr>
+    <blockquote>
+      <h2 id="Hello"> Hello and welcome to Andy's Music Stash!</h2>
+      This man knows a lot about music—so much that he wants to share it not only with you, but also with the people he cares deeply about, and with the whole world. These songs are absolute bops, whether they're in English, Spanish, Japanese, Korean, or any other language.
+      From genres like Metal, Rock, Indie, Mexicana, Reggae, Reggaeton, and Salsa—there's something here for everyone.
+      If you enjoy discovering new and diverse music, then you've come to the right place!
+      <hr>
+      <p id="This">This is Andy's Music Stash</p>
+    </blockquote>
+    <div id="slideshow">
+      <div>
+        <img class="slideshowImage" src="MusicImage/1.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/2.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/3.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/4.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051711000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051721000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051733000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051738000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051746000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051757000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/20250722_051802000_iOS.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5802.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/gojira.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5803.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5804.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5805.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/5.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/6.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5806.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5807.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5808.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5809.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5810.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5811.jpg">
+      </div>
+      <div>
+        <img class="slideshowImage" src="MusicImage/IMG_5812.jpg">
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("slideshowImage");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 1000);
+        }
+    </script>
+  </main>
+</body>
+  <footer>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="albums.html">Albums</a>
+      <a href="artists.html">Artists</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>&copy; 07/01/2025 Andy's Music Stash</p>
+  </footer>
+</html>

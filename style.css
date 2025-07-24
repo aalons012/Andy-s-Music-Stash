@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display:block;
+  box-sizing: border-box;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+main {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+button a{
+  color: #fff;
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+}
+/*=====================================================CLASSES=====================================================*/
+#randomize-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#randomize-btn:hover {
+  background-color: #555;
+}
+#welcome{
+  text-align: left;
+}
+#This{
+  text-align: center;
+}
+#Hello{
+  text-align: center;
+}
+#slideshow {width: 500px;
+  height: 500px;
+  margin-left: 125px;
+  margin-top: 50px;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+/*=====================================================ID=====================================================*/
+.slideshowImage {
+  width: 500px;
+  height:500px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: left;
+} 
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: auto;
+}
+.genre-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.genre-menu .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.genre-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  min-width: 160px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+.genre-menu .dropdown:hover .dropdown-content {
+  display: block;
+}
+.genre-menu .dropdown-content li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+}
+.genre-menu .dropdown-content li:last-child {
+  border-bottom: none;
+}
+.genre-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+.genre-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.genre-buttons button:hover {
+  background-color: #555;
+}
+.playlist-tables {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.playlist-table {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.playlist-table a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
