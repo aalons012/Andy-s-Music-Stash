@@ -57,7 +57,7 @@ const songs = [
     file: "Music/Cupid.mp3"
   },
   { title: "TOOL - The Pot",
-    file: "Music/The Pot.mp3"
+    file: "Music/The_Pot.mp3"
   },
   { title: "Téo (ft. Lido) - Belong In The Sun",
     file: "Music/Belong In The Sun.mp3"
