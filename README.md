@@ -4,14 +4,19 @@ Andy's Music Stash is a responsive music library website built with HTML, CSS, a
 
 ## Features
 🎵 Random song generator
+
 🎸 Album, artist, and playlist pages
+
 🎼 Genre-specific collections (Rock, Metal, Rap, Indie, Corridos, etc.)
+
 🖼️ Album artwork slideshow
+
 🌎 Diverse music selection spanning multiple languages and styles
+
 📱 Simple and responsive web interface
 
 ## Technologies Used
-HTML5
-CSS3
-JavaScript
-Media assets (MP3 and image files)
+* HTML5
+* CSS3
+* JavaScript
+* Media assets (MP3 and image files)
